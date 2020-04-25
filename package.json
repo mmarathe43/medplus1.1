@@ -1,0 +1,32 @@
+{
+  "name": "medplus1.1",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "JSON": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "buffer": "^5.5.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "js-base64": "^2.5.2",
+    "nodemailer": "^6.4.6",
+    "pdfmake": "^0.1.58",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmarathe43/medplus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmarathe43/medplus/issues"
+  },
+  "homepage": "https://github.com/mmarathe43/medplus#readme",
+  "description": ""
+}

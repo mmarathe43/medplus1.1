@@ -1,0 +1,51 @@
+<%-   include('header')   -%>
+
+
+<div class="placeorder">
+      <h1 class="placeOrder-h1">Order Details</h1>
+      <%var finalcost=0%>
+
+    <div class="placeordercard shadow p-3 bg-white rounded">
+      <div class=" row">
+          <div class=" col-9">
+              <h5>Orders</h5>
+          </div>
+          <div class="col-3">
+            <h5>Cost</h5>
+          </div>
+      </div>
+      </div>
+
+      <% for(var i=0;i<orderList.length;i++){ %>
+        <div class="placeordercard shadow p-3 bg-white rounded">
+        <div class="row">
+            <div class="col-9">
+                <%= orderList[i] %>
+            </div>
+            <div class="col-3">
+                <%= costList[i] %>
+            </div>
+            <%finalcost += costList[i]%>
+
+        </div>
+        </div>
+
+      <%}%>
+      <div class="placeordercard shadow p-3 bg-info rounded">
+      <div class="row">
+          <div class="col-9">
+              <h5 class="placeorderh5">Total:</h5>
+          </div>
+          <div class="col-3">
+              <h5 class="placeorderh5"><%=finalcost %></h5>
+
+
+          </div>
+      </div>
+      </div>
+      <div class="placeorderbtn" >
+        <button class=" btn-lg btn btn-success" type="button" name="button">Place Order</button>
+      </div>
+</div>
+
+<%-   include('footer')   -%>

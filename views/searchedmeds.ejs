@@ -1,0 +1,61 @@
+<%-   include('header')   -%>
+
+<div class="placeordercard shadow p-3 bg-white rounded">
+    <div class="row">
+        <div class="col-3">
+            <h4>Name</h4>
+        </div>
+        <div class="col-2">
+            <h4>Cost</h4>
+
+        </div>
+        <div class="col-2">
+            <h4>Stock</h4>
+
+        </div>
+        <div class="col-2">
+            <h4>Quantity</h4>
+
+        </div>
+        <div class="col-2">
+            <h4>Action</h4>
+
+        </div>
+      
+  
+    </div>
+    </div>
+
+
+<% for(var i=1;i<medlists[1].length;i++){ %>
+  <div class="placeordercard shadow p-3 bg-white rounded">
+        <div class="row">
+            <div class="col-3">
+                <%= medlists[1][i].name %>
+                <br>
+                <span><%= medlists[1][i].category %></span>
+            </div>
+            <div class="col-2">
+                <%= medlists[1][i].cost %>
+            </div>
+            <div class="col-2">
+                <%= medlists[1][i].quantity %>
+            </div>
+            <div class="col-2">
+                <input clas=="searchquantity" type="Number" name="quantity">
+            </div>
+            <div class="col-2">
+                <a href="/placeorder4/<%=medlists[1][i].name%>/"><img src="../assets/img/cart (1).png"></a>
+            </div>
+
+
+            
+
+        </div>
+  </div>
+
+<%}%>
+
+
+
+<%-   include('footer')   -%>

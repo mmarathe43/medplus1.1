@@ -1,0 +1,43 @@
+<%-   include('header')   -%>
+
+<div class="placeordercard shadow p-3 bg-white rounded">
+    <div class="row">
+        <div class="col-8">
+            <h4>Name</h4>
+        </div>
+        <div class="col-2">
+            <h4>Cost</h4>
+
+        </div>
+        <div class="col-2">
+            <h4>Stock</h4>
+
+        </div>
+      
+  
+    </div>
+    </div>
+
+
+<% for(var i=1;i<medlists[1].length;i++){ %>
+  <div class="placeordercard shadow p-3 bg-white rounded">
+  <div class="row">
+      <div class="col-8">
+          <%= medlists[1][i].name %>
+      </div>
+      <div class="col-2">
+          <%= medlists[1][i].cost %>
+      </div>
+      <div class="col-2">
+          <%= medlists[1][i].quantity %>
+      </div>
+    
+
+  </div>
+  </div>
+
+<%}%>
+
+
+
+<%-   include('footer')   -%>

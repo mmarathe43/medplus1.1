@@ -1,0 +1,66 @@
+<%-   include('header')   -%>
+
+<div class="placeordercard shadow p-3 bg-white rounded">
+    <div class="row">
+        <div class="col-8">
+            <h4>Name</h4>
+        </div>
+        <div class="col-2">
+            <h4>Cost</h4>
+
+        </div>
+        <div class="col-2">
+            <h4>Stock</h4>
+
+        </div>
+      
+  
+    </div>
+    </div>
+
+
+<% for(var i=1;i<medlists[1].length;i++){ %>
+<% if (medlists[1][i].quantity <= 20){  %>
+    <% if (medlists[1][i].quantity <= 10){  %>
+
+  <div class="placeordercard shadow p-3 bg-danger rounded">
+  <div class="row">
+      <div class="col-8">
+          <span class="alertstext"><%= medlists[1][i].name %></span>
+      </div>
+      <div class="col-2">
+        <span class="alertstext"><%= medlists[1][i].cost %></span>
+      </div>
+      <div class="col-2">
+        <span class="alertstext"><%= medlists[1][i].quantity %></span>
+      </div>
+    
+
+  </div>
+  </div>
+  <%}else{  %>
+    <div class="placeordercard shadow p-3 bg-warning rounded">
+        <div class="row">
+            <div class="col-8">
+                <span class="alertstext"><%= medlists[1][i].name %></span>
+            </div>
+            <div class="col-2">
+                <span class="alertstext"><%= medlists[1][i].cost %></span>
+            </div>
+            <div class="col-2">
+                <span class="alertstext"><%= medlists[1][i].quantity %></span>
+            </div>
+          
+      
+        </div>
+        </div>
+        <%}%>
+
+
+<%}%>
+
+<%}%>
+
+
+
+<%-   include('footer')   -%>
