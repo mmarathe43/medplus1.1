@@ -7,7 +7,7 @@ and also generate bills.
 
 Home Page :-
 
-<img src="/assets/img/readme_images/33.png" ></img>
+<img src="assets/img/readme_images/33.png" ></img>
  
  
  
