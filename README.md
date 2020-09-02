@@ -7,7 +7,30 @@ and also generate bills.
 
 Home Page :-
 
-<img src="assets/img/readme_images/33.png" ></img>
+<img src="assets/img/readme_images/33.PNG"  height="400"></img> 
  
+ 
+ Place Order :-
+ 
+ 
+<img src="assets/img/readme_images/35.PNG"  height="400"></img> 
+ 
+ 
+Stock Details :-
+ 
+ 
+<img src="assets/img/readme_images/40.PNG"  height="400"></img> 
+ 
+ 
+Stock Alert :-
+ 
+ 
+<img src="assets/img/readme_images/42.PNG"  height="400"></img> 
+ 
+ 
+Stock Update :-
+ 
+ 
+<img src="assets/img/readme_images/43.PNG"  height="400"></img> 
  
  
