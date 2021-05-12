@@ -15,7 +15,7 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "js-base64": "^2.5.2",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "pdfmake": "^0.1.58",
     "request": "^2.88.2"
   },
